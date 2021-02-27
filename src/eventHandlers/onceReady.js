@@ -13,8 +13,8 @@ async function onceReady(client) {
   
 }
 
-const url = "https://chatops-bot-test-20210226.taeuk.workers.dev/"; //강연자님이 만들어준 url
-const channelId = "814801395730350113"; //일반 채널에서 우클릭 -> id복사 
+const url = ""; //강연자님이 만들어준 url
+const channelId = ""; //일반 채널에서 우클릭 -> id복사 
 
 async function checkWebStatus(client) {
   if(await isUp(url)){
